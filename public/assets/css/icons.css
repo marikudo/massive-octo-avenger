@@ -1,0 +1,68 @@
+[class^="custom-icon-"],
+[class*=" custom-icon-"] {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin-top: 1px;
+  *margin-right: .3em;
+  line-height: 14px;
+  vertical-align: text-top;
+  background-image: url("../images/sprite-icon.png");
+  background-position: 14px 14px;
+  background-repeat: no-repeat;
+
+}
+[class^="custom-icon-small-"],
+[class*=" custom-icons-small-"] {
+  width: 16px;
+  height: 16px;
+}
+.custom-icon-small-email{
+	 background-position: -36px 1px;
+   width: 22px!important;
+height: 20px!important;
+}
+
+
+.custom-icon-small-users{
+	 background-position: -37px -21px;
+}
+.custom-icon-small-modules{
+	 background-position:-38px -64px;
+}
+.custom-icon-small-role{
+	 background-position: -38px -44px;
+}
+.custom-icon-small-home{
+	 background-position: -39px -86px;
+}
+.custom-icon-small-about{
+	 background-position: -39px -107px;
+	 margin-top: -1px;
+}
+.custom-icon-small-help{
+	 background-position: -39px -127px;
+}
+.custom-icon-modules {
+  background-position: -1px -1px;
+}
+
+.custom-icon-info {
+  background-position: -1px -70px;
+}
+
+.custom-icon-monitor {
+  background-position: -1px -35px;
+}
+
+.custom-icon-users {
+  background-position: -1px -100px;
+}
+
+.custom-icon-lock {
+  background-position: -1px -135px;
+}
+
+.custom-icon-cog {
+  background-position: 0px 0px;
+}

@@ -1,0 +1,152 @@
+.clear-right{clear: right;}
+.clear-left{clear: left;}
+.clear{clear: both;}
+.required{color:red}
+.control-label{font-weight:bold}
+#leftPanel{border-right: 1px solid #ddd;width: 216px;padding-bottom:60px;position:fixed;background:url(../images/fluid-repeat.png) repeat-y;height: 100%}
+#rightPanel{padding-bottom: 62px;overflow: hidden;margin-left:216px;padding-top:30px;padding-right:20px;padding-left:20px}
+
+#brand-logo{height:29px;overflow:hidden;border-bottom:1px solid #090c10;margin-bottom:10px}
+#brand-logo img{margin-top:-20px}
+
+#top-nav-fixed{position:fixed;height:30px;top:0;left:216px;right:0;padding-left:5px;border-left:1px solid #052540;background:url(../images/header-repeat.png)repeat-x 0 -45px;padding-right: 15px;z-index: 999}
+#top-nav-fixed p{color: #fff;line-height: 25px;}
+
+#user-login{margin-top: 3px;}
+#user-login li a{color:#fff!important}
+#user-login li .dropdown-menu li a{color:#3b3b3b!important}
+
+#viewwebsite{border-right:1px solid #fff;margin-right:5px;padding-right:5px}
+#viewwebsite:hover{color:#fff}
+.acl-true{padding-left: 16px;height: 16px;margin-left: -9px;margin-top: 1px;background:url('../images/check.png')no-repeat}
+.acl-false{padding-left: 16px;height: 16px;margin-left: -9px;margin-top: 1px;background:url('../images/cross.png')no-repeat}
+.arrow-left{height: 19px;padding-right: 20px;float: right;margin-top: -23px;margin-right: -26px;background:url(../images/arrow.png)no-repeat 5px -4px}
+
+a.actions{font: bold 11px 'Arial';margin-left: 5px!important;}
+a.actions i.issue-icon{position: absolute;width: 16px;height: 16px;margin-left: -20px;margin-top: 1px;}
+a.actions i.update{background:url('../images/edit.png')no-repeat center center}
+a.actions i.delete{background:url('../images/delete.png')no-repeat center center}
+
+.table thead th.acl{width:40px;text-align:center}
+.table{overflow: hidden;}
+
+.table.rouned-top{
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.table thead th.text-align-center,.table tbody td.text-align-center{text-align:center!important}
+.table thead th:last-child,.table tbody tr td:last-child{width: 110px;text-align:center!important}
+.align-center{text-align:center!important}
+
+.title-container{
+margin-top:10px;
+}
+#left-menu-panel li a.menu-active{background:url(../images/header-repeat.png)repeat-x 0 -95px;
+color: #fff;
+text-shadow: none;}
+
+.small-image{border: 1px solid #ddd;border-radius: 5px;text-align: center;width: 80px;height: 70px;margin: 0 auto;}
+.small-image img{margin: 5px;}
+.small-box{border-radius:3px;text-align:center;float:left;width: 130px;}
+.small-box a{line-height:10px!important}
+.small-box a.dashboard-action{font-size: 12px;}
+.small-box a strong{color:#333333!important}
+.dashboard-nav:after{clear:both}
+.action-btn-container{border-top: 1px solid #e3e3e3;padding-top:17px}
+#footer {padding-top: 30px;text-align:center;border-top:1px solid #ddd;color:#9a9a9a;height:100px;margin-top: 20px;}
+
+.custom-icon-home{background:url(../images/home.png)no-repeat}
+
+#loginform input[type="text"],#loginform input[type="password"]{background-color:#fff; border:1px solid #ccc;  transition:border linear .2s, box-shadow linear .2s}
+#loginform input[type="text"]:focus,#loginform input[type="password"]:focus{border-color:#ccc; outline:0; outline:thin dotted \9;}
+
+
+/*about cms section*/
+#about-wrapper{background: #484848 url(../images/about-repeat.png);padding: 10px}
+#about-wrapper img{margin-right: 10px;width: 100px}
+#about-wrapper .about-container{color: #868686}
+.about-container h4.key-features{color: #05d800;text-align: center;border-bottom: 1px solid #222222;padding-bottom: 5px}
+
+.features-box-container{text-align: center;}
+.feature-box{width: 100px;float: left;margin: 0 10px;}
+.feature-box img.feature-image{width: 50px!important;margin: 0 auto;}
+.feature-box h5{font-size: 12px;line-height: 15px;color: #87ae56}
+.feature-box p{line-height: 10px;font-size: 11px;}
+
+.table-custom thead{background: url(../images/header-repeat.png)repeat-x 0 -88px;
+color: #fff;}
+
+/* .button{float:left;margin:23px 25px 0 -20px}*/
+ .button,.minibutton{position:relative;display:inline-block;padding:7px 15px;font-size:13px;font-weight:bold;color:#333;text-shadow:0 1px 0 rgba(255,255,255,0.9);white-space:nowrap;background-color:#eaeaea;background-image:-moz-linear-gradient(#fafafa, #eaeaea);background-image:-webkit-linear-gradient(#fafafa, #eaeaea);background-image:linear-gradient(#fafafa, #eaeaea);background-repeat:repeat-x;border-radius:3px;border:1px solid #ddd;border-bottom-color:#c5c5c5;box-shadow:0 1px 3px rgba(0,0,0,0.05);vertical-align:middle;cursor:pointer;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-appearance:none}
+.button:hover,.button:active,.minibutton:hover,.minibutton:active{text-decoration:none;background-color:#dadada;background-image:-moz-linear-gradient(#eaeaea, #dadada);background-image:-webkit-linear-gradient(#eaeaea, #dadada);background-image:linear-gradient(#eaeaea, #dadada);background-repeat:repeat-x;border-color:#ccc #ccc #b5b5b5}
+.button:active,.minibutton:active{background-color:#dadada;background-image:none;border-color:#b5b5b5;box-shadow:inset 0 3px 5px rgba(0,0,0,0.15)}
+.button:disabled,.button:disabled:hover,.button.disabled,.button.disabled:hover,.minibutton:disabled,.minibutton:disabled:hover,.minibutton.disabled,.minibutton.disabled:hover{opacity:.5;color:#666;text-shadow:0 1px 0 rgba(255,255,255,0.9);background-image:none;background-color:#e5e5e5;border-color:#c5c5c5;cursor:default;box-shadow:none}
+.button.primary,.minibutton.primary{color:#fff;text-shadow:0 -1px 0 rgba(0,0,0,0.25);background-color:#60b044;background-image:-moz-linear-gradient(#8add6d, #60b044);background-image:-webkit-linear-gradient(#8add6d, #60b044);background-image:linear-gradient(#8add6d, #60b044);background-repeat:repeat-x;border-color:#5ca941}
+.button.primary:hover,.minibutton.primary:hover{color:#fff;background-color:#569e3d;background-image:-moz-linear-gradient(#79d858, #569e3d);background-image:-webkit-linear-gradient(#79d858, #569e3d);background-image:linear-gradient(#79d858, #569e3d);background-repeat:repeat-x;border-color:#4a993e}
+.button.primary:active,.minibutton.primary:active{background-color:#569e3d;background-image:none;border-color:#418737}
+.button.primary:disabled,.button.primary:disabled:hover,.button.primary.disabled,.button.primary.disabled:hover,.minibutton.primary:disabled,.minibutton.primary:disabled:hover,.minibutton.primary.disabled,.minibutton.primary.disabled:hover{color:#fff;text-shadow:0 -1px 0 rgba(0,0,0,0.25);background-color:#60b044;background-image:-moz-linear-gradient(#8add6d, #60b044);background-image:-webkit-linear-gradient(#8add6d, #60b044);background-image:linear-gradient(#8add6d, #60b044);background-repeat:repeat-x;border-color:#74bb5a #74bb5a #509338}
+.button.danger,.minibutton.danger{color:#900}
+.button.danger:hover,.minibutton.danger:hover{color:#fff;text-shadow:0px -1px 0 rgba(0,0,0,0.3);background-color:#b33630;background-image:-moz-linear-gradient(#dc5f59, #b33630);background-image:-webkit-linear-gradient(#dc5f59, #b33630);background-image:linear-gradient(#dc5f59, #b33630);background-repeat:repeat-x;border-color:#cd504a}
+.button.danger:active,.minibutton.danger:active{color:#fff;background-color:#b33630;background-image:none;border-color:#9f312c}
+.button.danger:disabled,.button.danger:disabled:hover,.button.danger.disabled,.button.danger.disabled:hover,.minibutton.danger:disabled,.minibutton.danger:disabled:hover,.minibutton.danger.disabled,.minibutton.danger.disabled:hover{color:#900;text-shadow:0 1px 0 rgba(255,255,255,0.9);background-color:#e1e1e1;background-image:-moz-linear-gradient(#fff, #e1e1e1);background-image:-webkit-linear-gradient(#fff, #e1e1e1);background-image:linear-gradient(#fff, #e1e1e1);background-repeat:repeat-x;border-color:#c5c5c5}
+.button.blue,.button.blue:hover,.minibutton.blue,.minibutton.blue:hover{color:#fff;text-shadow:0 -1px 0 rgba(0,0,0,0.25);background-color:#3072b3;background-image:-moz-linear-gradient(#599bcd, #3072b3);background-image:-webkit-linear-gradient(#599bcd, #3072b3);background-image:linear-gradient(#599bcd, #3072b3);background-repeat:repeat-x;border-color:#2a65a0}
+.button.blue:hover,.button.blue:active,.minibutton.blue:hover,.minibutton.blue:active{border-color:#2a65a0}
+.button.blue:active,.minibutton.blue:active{background-color:#3072b3;background-image:none;border-color:#25588c;box-shadow:inset 0 3px 5px rgba(0,0,0,0.15)}
+.button.blue:disabled,.button.blue.disabled,.minibutton.blue:disabled,.minibutton.blue.disabled{background-position:0 0}
+.button.dark-grey,.button.dark-grey:hover,.minibutton.dark-grey,.minibutton.dark-grey:hover{color:#fff;text-shadow:0 -1px 0 rgba(0,0,0,0.25);background-color:#6d6d6d;background-image:-moz-linear-gradient(#8c8c8c, #6d6d6d);background-image:-webkit-linear-gradient(#8c8c8c, #6d6d6d);background-image:linear-gradient(#8c8c8c, #6d6d6d);background-repeat:repeat-x;border:1px solid #707070;border-bottom-color:#595959}
+.button.dark-grey:hover,.button.dark-grey:active,.minibutton.dark-grey:hover,.minibutton.dark-grey:active{border-color:#585858}
+.button.dark-grey:active,.minibutton.dark-grey:active{background-color:#545454;background-image:none;border-color:#474747;box-shadow:inset 0 3px 5px rgba(0,0,0,0.15)}
+.button,.minibutton{outline:none}
+.button:focus,.minibutton:focus{text-decoration:none;border-color:#51a7e8;box-shadow:0 0 5px rgba(81,167,232,0.5)}
+.button img{position:relative;top:-1px;margin-right:3px;vertical-align:middle}
+.button>.octicon{vertical-align:middle;margin-top:-1px}
+.minibutton{padding:0 10px;line-height:24px;box-shadow:none}
+.minibutton:hover .octicon-device-desktop:before{background-position:-18px 0}
+.minibutton.selected,.context-menu-container.active .minibutton.switcher,.context-menu-container.active .context-button{color:#fff;text-shadow:0 -1px 0 rgba(0,0,0,0.5);background-color:#767676;background-image:none;border-color:#686868;box-shadow:inset 0 3px 5px rgba(0,0,0,0.15)}
+.minibutton i{font-weight:500;font-style:normal;opacity:.6}
+.button-block{display:block;width:100%;text-align:center;-moz-box-sizing:border-box;box-sizing:border-box}
+.button-link{display:inline;padding:0;font-size:inherit;color:#4183c4;white-space:nowrap;background-color:transparent;border:0;cursor:pointer;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-appearance:none}
+.button-link:hover{text-decoration:underline}input[type=text]+.minibutton{margin-left:5px}
+.minibutton .octicon{vertical-align:middle;margin-top:-1px;margin-right:6px;-moz-transition:none;-webkit-transition:none;-o-transition:color 0 ease-in;transition:none}
+.minibutton.empty-icon .octicon{margin-right:0}
+.minibutton .octicon-arrow-right{float:right;margin-right:0;margin-left:5px;margin-top:4px}
+.minibutton.switcher{padding:0;height:24px;line-height:1}
+.minibutton.switcher>span{display:block;position:relative;padding:0 26px 0 10px;line-height:24px;height:24px}
+.minibutton.switcher>span:before{content:"";display:block;position:absolute;border:3px solid #000;border-color:#000 transparent transparent;top:10px;right:7px;width:0;height:0}
+.minibutton.switcher>span:after{position:absolute;top:0;bottom:0;right:18px;display:block;content:"";width:1px;background-color:#f9f9f9;box-shadow:-1px 0 0 #e4e4e4}
+.minibutton.switcher:hover>span:after{background-color:#6a9fd3;box-shadow:-1px 0 0 #3c74ab}
+.minibutton.switcher:active>span:after{background-color:#357ec8;box-shadow:-1px 0 0 #25588c}
+.minibutton.switcher.with-image{height:32px}
+.minibutton.switcher.with-image>span{display:block;height:32px;line-height:32px;padding:0 26px 0 6px}
+.minibutton.switcher.with-image>span:before{top:14px}
+.minibutton.switcher.with-image img{position:relative;top:-1px;margin-right:2px;vertical-align:middle;border-radius:2px}
+.minibutton.switcher.with-image.selected span:before,.context-menu-container.active .switcher.with-image.minibutton span:before,.context-menu-container.active .switcher.with-image.context-button span:before{top:14px}
+.minibutton.switcher.selected>span:before,.context-menu-container.active .switcher.minibutton>span:before,.context-menu-container.active .switcher.context-button>span:before,.context-menu-container.active .minibutton.switcher>span:before{top:10px;border-color:#fff transparent transparent}
+.minibutton.switcher.selected>span:after,.context-menu-container.active .switcher.minibutton>span:after,.context-menu-container.active .switcher.context-button>span:after,.context-menu-container.active .minibutton.switcher>span:after{background-color:#888;box-shadow:-1px 0 0 #585858}
+.minibutton.switcher:hover>span:before,.context-menu-container.active .context-button:after{border-color:#fff transparent transparent}
+.button-group{display:inline-block;vertical-align:middle}
+.button-group:before,.button-group:after{content:" ";display:table}
+.button-group:after{clear:both}
+.button-group .button,.button-group .minibutton{position:relative;float:left;border-radius:0}
+.button-group .button:first-child,.button-group .minibutton:first-child{border-top-left-radius:3px;border-bottom-left-radius:3px}
+.button-group .button:last-child,.button-group .minibutton:last-child{border-top-right-radius:3px;border-bottom-right-radius:3px}
+.button-group .button:hover,.button-group .button:focus,.button-group .button:active,.button-group .button.selected,.button-group .minibutton:hover,.button-group .minibutton:focus,.button-group .minibutton:active,.button-group .minibutton.selected,.button-group .context-menu-container.active .minibutton.switcher,.context-menu-container.active .button-group .minibutton.switcher,.button-group .context-menu-container.active .context-button,.context-menu-container.active .button-group .context-button{z-index:2}
+.button-group .button+.button,.button-group .minibutton+.minibutton{margin-left:-1px;box-shadow:inset 1px 0 0 rgba(255,255,255,0.2)}
+.button-group .button+.button:hover,.button-group .minibutton+.minibutton:hover{box-shadow:none}
+.button-group .button+.button:active,.button-group .minibutton+.minibutton:active{box-shadow:inset 0 3px 5px rgba(0,0,0,0.15)}
+.button-group+.button-group,.button-group+.button,.button-group+.minibutton{margin-left:5px}
+.navbar .nav li a.dropdown-toggle{padding-top: 11px!important;text-shadow:none;color:#333333;}
+.nav.active{
+background-color: #60b044;
+background-image: -moz-linear-gradient(#8add6d, #60b044);
+background-image: -webkit-linear-gradient(#8add6d, #60b044);
+background-image: linear-gradient(#8add6d, #60b044);
+background-repeat: repeat-x;
+border-color: #5ca941;
+padding-right: 15px;
+margin-right: 0px;
+}
