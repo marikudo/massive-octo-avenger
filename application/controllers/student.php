@@ -10,6 +10,7 @@ class student extends crackerjack{
 
 	public function index(){
 		$data['page_title'] = "Dashboard";
+		
 	}
 	
 	public function account($id = false){
