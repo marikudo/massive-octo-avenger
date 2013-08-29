@@ -2,9 +2,16 @@
 
 function islogin(){
 		$mvc =& getInstance();
-		if($mvc->session->_get('islogin')==true){
-			return true;
-		}else{
-			return false;
+			return ($mvc->session->_get('islogin')==true) ?  true : false;
 	}
+}
+
+
+function isAdmin(){
+	$mvc =& getInstance();
+		if(islogin()==true){
+			if($mvc->session->_get('uid')==1){
+				return ($mvc->session->_get('uid')==1) ?  true : false;
+			}
+		}
 }
